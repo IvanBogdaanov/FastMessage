@@ -38,7 +38,7 @@ FastMessage.shared.show(title: "Заголовок", message: "Сообщени�
    Результат
 <img width="322" alt="Снимок экрана 2019-10-06 в 16 24 30" src="https://user-images.githubusercontent.com/50133415/66269815-d2528b80-e855-11e9-9de9-62901bb5518f.png">
 
-### Etended Show
+### Extended Show
 Extended version of show
 
 Расширенная версия функции show

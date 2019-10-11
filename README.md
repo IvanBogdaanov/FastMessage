@@ -1,8 +1,7 @@
 # FastMessage
 Это небольшая библиотека для быстрого отображения сообщений на экране
-<img width="322" alt="Снимок экрана 2019-10-06 в 16 24 30" src="https://user-images.githubusercontent.com/50133415/66269815-d2528b80-e855-11e9-9de9-62901bb5518f.png">
-
-<img width="292" alt="Снимок экрана 2019-10-06 в 16 35 44" src="https://user-images.githubusercontent.com/50133415/66270015-68d37c80-e857-11e9-9b1b-daa631ba4219.png">
+<img width="339" alt="Снимок экрана 2019-10-11 в 20 53 11" src="https://user-images.githubusercontent.com/50133415/66673471-4ed7d680-ec69-11e9-933a-9a165f992631.png">
+<img width="340" alt="Снимок экрана 2019-10-11 в 20 53 36" src="https://user-images.githubusercontent.com/50133415/66673490-5a2b0200-ec69-11e9-94f0-b72353ee1170.png">
 
 ## Installation
 ### CocoaPods

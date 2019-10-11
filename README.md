@@ -5,8 +5,6 @@
 
 ## Installation
 ### CocoaPods
-To integrate FastMessage into your Xcode project using CocoaPods, specify it in your Podfile:
-
 Вставьте следущий код в ваш Podfile:
 
 ```ruby

@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		136C9F112350E76D004EF855 /* FastMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136C9F102350E76D004EF855 /* FastMessage.swift */; };
 		13F75C1F2348BEA10015C914 /* FastMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 13F75C1D2348BEA10015C914 /* FastMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		13F75C262348BF130015C914 /* FastMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F75C252348BF130015C914 /* FastMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		136C9F102350E76D004EF855 /* FastMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastMessage.swift; sourceTree = "<group>"; };
 		13F75C1A2348BEA10015C914 /* FastMessage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FastMessage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13F75C1D2348BEA10015C914 /* FastMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FastMessage.h; sourceTree = "<group>"; };
 		13F75C1E2348BEA10015C914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		13F75C252348BF130015C914 /* FastMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				13F75C1D2348BEA10015C914 /* FastMessage.h */,
-				13F75C252348BF130015C914 /* FastMessage.swift */,
+				136C9F102350E76D004EF855 /* FastMessage.swift */,
 				13F75C1E2348BEA10015C914 /* Info.plist */,
 			);
 			path = FastMessage;
@@ -108,6 +108,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 13F75C102348BEA10015C914;
 			productRefGroup = 13F75C1B2348BEA10015C914 /* Products */;
@@ -134,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13F75C262348BF130015C914 /* FastMessage.swift in Sources */,
+				136C9F112350E76D004EF855 /* FastMessage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +277,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = FastMessage/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -286,8 +287,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -304,7 +305,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = FastMessage/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,8 +314,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = iva.FastMessage;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

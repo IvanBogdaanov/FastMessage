@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.source = { :git => "https://github.com/IvanBogdaanov/FastMessage.git", :tag => "2.3" }
   s.ios.deployment_target = "10.0"
   s.source_files = 'FastMessage/*.swift'
-  s.swift_versions = ['4.0','4.1','4.2',','5.0']
+  s.swift_versions = ['4.0','4.1','4.2','5.0']
 
 end

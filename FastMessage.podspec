@@ -7,12 +7,8 @@ Pod::Spec.new do |s|
   s.license = { :type => "MIT", :file => "LICENSE" }
   s.author = { "IvanBogdaanov" => "IvanBogdaanov@gmail.com" }
   s.source = { :git => "https://github.com/IvanBogdaanov/FastMessage.git", :tag => "2.3" }
-
-  s.requires_arc = true
   s.ios.deployment_target = "10.0"
-
   s.source_files = 'FastMessage/*.swift'
-
   s.swift_version = "4.2"
 
 end
